@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d261b6e6-5af3-492f-8304-92a2ef0aeb55" name="Default" comment="增加了查看其他用户信息功能">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/user/viewUser.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zw/bbs/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zw/bbs/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zw/bbs/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/zw/bbs/dao/UserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zw/bbs/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/zw/bbs/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zw/bbs/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/zw/bbs/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/posts/posts.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/posts/posts.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zw/bbs/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/zw/bbs/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zw/bbs/dao/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/zw/bbs/dao/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zw/bbs/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/zw/bbs/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zw/bbs/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/zw/bbs/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zw/bbs/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/zw/bbs/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zw/bbs/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/zw/bbs/service/impl/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-05-10" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/bbs/org/apache/jsp/WEB_002dINF/page/index_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/bbs/org/apache/jsp/WEB_002dINF/page/index_jsp.class" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/bbs/org/apache/jsp/WEB_002dINF/page/index_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/bbs/org/apache/jsp/WEB_002dINF/page/index_jsp.java" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/bbs/org/apache/jsp/WEB_002dINF/page/login_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/bbs/org/apache/jsp/WEB_002dINF/page/login_jsp.java" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs.war" afterPath="$PROJECT_DIR$/target/zw-bbs.war" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/controller/UserController.class" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/dao/UserMapper.class" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/dao/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/mapper/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/model/User.class" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/service/UserService.class" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/classes/com/zw/bbs/service/impl/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/page/posts/posts.jsp" afterPath="$PROJECT_DIR$/target/zw-bbs/WEB-INF/page/posts/posts.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,7 +34,7 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="250">
               <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,12 +47,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="posts.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/posts/posts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="375">
               <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="60" />
+              <folding>
+                <element signature="e#803#1847#0#JSP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +92,7 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="750">
               <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
@@ -100,7 +102,7 @@
       <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/zw/bbs/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="1625">
               <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="34" />
               <folding>
                 <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
@@ -125,7 +127,7 @@
       <file leaf-file-name="Realm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/util/Realm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="325">
               <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="46" />
               <folding />
             </state>
@@ -186,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/posts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/filter/CharsetEncodeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/model/Posts.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/replyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/model/Reply.java" />
@@ -204,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/ReplyServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/modify.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/PostsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/IndexJs.js" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config/spring-Shiro.xml" />
@@ -223,6 +223,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/posts/posts.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zw/bbs/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp" />
       </list>
     </option>
   </component>
@@ -273,7 +275,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="526" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -294,10 +296,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -423,6 +424,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zwbbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zwbbs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -452,12 +462,23 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zwbbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zwbbs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,38 +640,38 @@
     <configuration>C:\Users\MrW\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38528138" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38528138" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.49380532" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19349681" sideWeight="0.5061947" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -679,14 +700,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/model/Posts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -840,15 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,17 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1067#1068#0" expanded="false" />
-            <element signature="e#1095#1096#0" expanded="false" />
-            <element signature="e#1142#1143#0" expanded="false" />
-            <element signature="e#1176#1177#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1245#1246#0" expanded="false" />
-            <element signature="e#1296#1297#0" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,16 +989,6 @@
         <state relative-caret-position="450">
           <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="57" column="60" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="60" />
-          <folding>
-            <element signature="e#803#1847#0#JSP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="490" column="0" lean-forward="false" selection-start-line="490" selection-start-column="0" selection-end-line="490" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="424" column="0" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="484" column="0" lean-forward="false" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,13 +1039,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/util/Realm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="325">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="46" />
           <folding />
         </state>
@@ -1078,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/zw/bbs/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="1625">
           <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="34" />
           <folding>
             <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
@@ -1101,7 +1075,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="750">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
@@ -1109,7 +1083,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zw/bbs/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="250">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1123,8 +1097,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/posts/posts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="375">
           <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="60" />
+          <folding>
+            <element signature="e#803#1847#0#JSP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding />
         </state>
       </provider>

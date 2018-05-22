@@ -5,8 +5,8 @@
             <li class="active"><a href="index">首页</a></li>
             <c:choose>
                 <c:when test="${sessionScope.user!=null}">
-                    <li class="">
-                        <span>我的</span>
+                    <li id="me">
+                        <a id="my" href="#my">我的</a>
                             <ul class="nav nav-list">
                                 <li><a href="userInfo">个人信息</a></li>
                                 <li><a href="modify">修改信息</a></li>

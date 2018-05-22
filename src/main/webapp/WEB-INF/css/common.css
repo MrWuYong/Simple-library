@@ -98,3 +98,9 @@ header{
     width: 40px;
     text-align: center;
 }
+#me>ul{
+    display: none;
+}
+#me:hover > ul{
+    display: inline-block;
+}
