@@ -17,6 +17,30 @@
       <id property="id" column="s_id"/>
       <result property="sex" column="s_sex"/>
     </association>
+    <collection property="posts" column="u_id"  javaType="List" ofType="Posts" select="selectPostsByUserId"/>
+    <collection property="replies" column="u_id" javaType="List" ofType="Reply" select="selectRepliesByUserId"/>
+  </resultMap>
+  <resultMap id="BaseResultMap2" type="User">
+    <id column="u_id" property="id" />
+    <result column="user_name"  property="userName" />
+    <result column="user_role"  property="userRole" />
+    <result column="u_sex" property="sex" />
+    <association property="role" javaType="UserRole">
+      <id property="id" column="r_id"/>
+      <result property="roleName" column="role_name"/>
+    </association>
+    <association property="sexModel" javaType="Sex"  >
+      <id property="id" column="s_id"/>
+      <result property="sex" column="s_sex"/>
+    </association>
+    <collection property="posts" column="u_id" javaType="List" ofType="Posts" select="selectPostsByUserId"/>
+    <collection property="replies" column="u_id" javaType="List" ofType="Reply" select="selectRepliesByUserId"/>
+  </resultMap>
+  <resultMap id="postsMap" type="Posts">
+    <id property="id" column="id"/>
+  </resultMap>
+  <resultMap id="repliesMap" type="Reply">
+    <id property="id" column="id"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, user_code, user_name, password, user_role, sex
@@ -30,19 +54,35 @@
     from user
     where id = #{id,jdbcType=INTEGER}
   </select>
-  <select id="selectByUserCode" resultType="User">
-    select
-    <include refid="Base_Column_List2" />
-    from user
-    where user_code = #{userCode}
+  <select id="selectByUserCode" resultType="User" parameterType="String">
+    SELECT
+    <include refid="Base_Column_List2"/>
+    FROM `user`
+    WHERE user_code = #{userCode}
   </select>
-
-  <select id="selectById" resultMap="BaseResultMap">
-        SELECT
+  <select id="selectByUserName" resultMap="BaseResultMap2">
+    select
           u.id AS  u_id,
           user_code,
           user_name,
           password,
+          user_role,
+          u.sex AS u_sex,
+          create_Date,
+          r.id AS r_id,
+          role_name,
+          s.id AS s_id,
+          s.sex AS s_sex
+      FROM
+          `user` AS u
+          INNER JOIN user_role AS r ON u.user_role = r.id
+          INNER JOIN sex AS s ON u.sex = s.id
+      where user_name = #{userName}
+  </select>
+  <select id="selectById" resultMap="BaseResultMap">
+        SELECT
+          u.id AS  u_id,
+          user_name,
           user_role,
           u.sex AS u_sex,
           create_Date,
@@ -62,10 +102,21 @@
     FROM `user`
     WHERE id=#{id}
   </select>
+  <select id="selectPostsByUserId" resultMap="postsMap" parameterType="integer">
+    SELECT id
+    FROM posts
+    WHERE user_id=#{userId}
+  </select>
+  <select id="selectRepliesByUserId" resultMap="repliesMap" parameterType="integer">
+    SELECT id
+    FROM reply
+    WHERE user_id=#{userId}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from user
     where id = #{id,jdbcType=INTEGER}
   </delete>
+
   <insert id="insert" parameterType="com.zw.bbs.model.User">
     insert into user ( user_code, user_name,
       password, user_role, sex
