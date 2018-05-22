@@ -26,7 +26,7 @@
                 <div >
                     <h1 class="text-center">${posts.content.heading}</h1>
                     <div class="row" style="border: 1px solid #999999;">
-                        <div class="col-md-2 text-center" style="border-right: 1px solid #999999;"><p><label>${posts.user.userName}</label></p></div>
+                        <div class="col-md-2 text-center" style="border-right: 1px solid #999999;"><p><label><a href="viewUser?userName=${posts.user.userName}">${posts.user.userName}</a></label></p></div>
                         <div class="text-justify"><p>${posts.content.content}</p></div>
                     </div>
                 </div>

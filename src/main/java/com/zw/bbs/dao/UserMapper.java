@@ -16,6 +16,8 @@ public interface UserMapper {
 
     User selectByUserCode(@Param("userCode") String userCode);
 
+    User selectByUserName(@Param("userName") String userCode);
+
     User selectById(@Param("id")Integer id);
     String selectForPwd(@Param("id")Integer id);
 

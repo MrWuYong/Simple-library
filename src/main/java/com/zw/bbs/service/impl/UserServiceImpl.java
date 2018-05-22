@@ -18,10 +18,12 @@ import java.util.Map;
 public class UserServiceImpl implements UserService {
     @Autowired
     UserMapper userMapper;
-
     @Override
     public User findByUserCode(String userCode) {
         return userMapper.selectByUserCode(userCode);
+    }
+    public User findByUserName(String userName) {
+        return userMapper.selectByUserName(userName);
     }
     public void login(User user){
         Subject subject= SecurityUtils.getSubject();

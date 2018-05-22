@@ -44,6 +44,12 @@ public class UserController  {
         session.setAttribute("user",user);
         return "userInfo";
     }
+    @RequestMapping("/viewUser")
+    public String viewUser(Model model,@RequestParam("userName")String userName){
+        User user = userService.findByUserName(userName);
+        model.addAttribute("OtherUser",user);
+        return "user/viewUser";
+    }
     @RequestMapping(value = "/modify",method = RequestMethod.GET)
     public String modify(Model model,HttpSession session){
         model.addAttribute("user",session.getAttribute("user"));

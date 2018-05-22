@@ -7,6 +7,7 @@ import java.util.Map;
 
 public interface UserService {
     User findByUserCode(String userCode);
+    User findByUserName(String userCode);
     List<User> findAll();
     void login(User user);
     Map<String,Object> register(User user);

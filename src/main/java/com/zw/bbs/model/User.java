@@ -6,8 +6,10 @@ import com.zw.bbs.util.validator.Update;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.NotNull;
+import java.awt.*;
 import java.io.Serializable;
 import java.sql.Date;
+import java.util.List;
 
 public class User implements Serializable {
     @NotNull(message = "id不可为空",groups = Delete.class)
@@ -27,7 +29,27 @@ public class User implements Serializable {
 
     private UserRole role;
 
+    private List<Posts> posts;
+
+    private List<Reply> replies;
+
     private Date createDate;
+
+    public List<Posts> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(List<Posts> posts) {
+        this.posts = posts;
+    }
+
+    public List<Reply> getReplies() {
+        return replies;
+    }
+
+    public void setReplies(List<Reply> replies) {
+        this.replies = replies;
+    }
 
     public Integer getId() {
         return id;
