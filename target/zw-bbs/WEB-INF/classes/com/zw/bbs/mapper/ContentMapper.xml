@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zw.bbs.dao.ContentMapper">
+  <resultMap id="BaseResultMap" type="com.zw.bbs.model.Content">
+    <id column="id" jdbcType="INTEGER" property="id" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.zw.bbs.model.Content">
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id
+  </sql>
+  <sql id="Blob_Column_List">
+    content,heading
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from content
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from content
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <!--useGeneratedKeys="true" 设置是否使用JDBC的getGenereatedKeys方法获取主键并赋值到keyProperty设置的主键字段中
+  keyProperty="id"  指定JavaBean的主键字段-->
+  <!--1是返回的插入成功的行数；自增id直接映射到你的对象里了，直接输出 xxx.getId()就可以了-->
+  <insert id="insert" parameterType="Content" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+    insert into content (content,heading)
+      values (#{content},#{heading})
+  </insert>
+
+  <insert id="insertSelective" parameterType="com.zw.bbs.model.Content">
+    insert into content
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="content != null">
+        content,
+      </if>
+      <if test="heading != null">
+        heading,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="content != null">
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="heading != null">
+        #{heading,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zw.bbs.model.Content">
+    update content
+    <set>
+      <if test="content != null">
+        content = #{content,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="heading != null">
+        heading = #{heading,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.zw.bbs.model.Content">
+    update content
+    set content = #{content,jdbcType=LONGVARCHAR},heading = #{heading}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
