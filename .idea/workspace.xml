@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d261b6e6-5af3-492f-8304-92a2ef0aeb55" name="Default" comment="增加了查看其他用户信息功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/public/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -275,7 +273,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="526" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -640,8 +638,7 @@
     <configuration>C:\Users\MrW\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1103,14 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1118,6 +1107,14 @@
           <folding>
             <element signature="e#803#1847#0#JSP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
