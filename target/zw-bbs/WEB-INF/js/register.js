@@ -1,4 +1,0 @@
-$(function () {
-    
-    $(".formDiv>p")
-});
